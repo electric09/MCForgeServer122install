@@ -74,7 +74,7 @@
 
   - name: Wait until server.properties creating
     wait_for:
-     timeout: 300
+     timeout: 180
 
   - name: Config server.properties
     become: yes
